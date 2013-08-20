@@ -1,0 +1,25 @@
+
+                         - Tiny Matrix Algebra -
+
+An implementation of matrix algebra for 3x1, 1x3, and 3x3 matricies.
+
+================================================================================
+
+Copyright 2013 Benjamin Silbaugh (ben.silbaugh@gmail.com)
+
+Permission is granted to modify and/or redistribute this software under the
+terms of the MIT Software License. See LICENSE file.
+
+================================================================================
+
+Preliminary testing shows this library to be up to 40X faster than the 
+built-in Julia arrays when evaluating matrix expressions involving "small"
+matricies (i.e. 3X1 and 3X3 matricies).
+
+The expectation is that this library may be useful for multi-body dynamics
+simulations, and perhaps other computational mechanics applications that require
+repeated evaluation of expressions involving "small" matricies.
+
+NOTES: 
+1. This is a developer prevew version.
+2. The 1x3 matrix is not yet supported.
