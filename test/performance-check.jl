@@ -48,7 +48,7 @@ function dot(u, v, n::Int)
     end
 end
 
-n = 10000
+n = 100000
 
 a = rand3X3()
 b = rand3X3()
