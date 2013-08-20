@@ -12,7 +12,7 @@ terms of the MIT Software License. See LICENSE file.
 
 ================================================================================
 
-Preliminary testing shows this library to be up to 40X faster than the 
+Preliminary testing shows this library to be up to 25 times faster than the 
 built-in Julia arrays when evaluating matrix expressions involving "small"
 matricies (i.e. 3X1 and 3X3 matricies).
 
