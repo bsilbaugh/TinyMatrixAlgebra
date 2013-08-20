@@ -43,14 +43,14 @@ export Matrix3X1, Matrix3X3,
 # ------------------------------------------------------------------------------
 
 # 3X1 matrix (column vector)
-type Matrix3X1{T <: Number}
+immutable Matrix3X1{T <: Number}
     elem_11 :: T
     elem_21 :: T
     elem_31 :: T
 end
 
 # 3X3 matrix (square matrix)
-type Matrix3X3{T <: Number}
+immutable Matrix3X3{T <: Number}
     elem_11 :: T
     elem_12 :: T
     elem_13 :: T
