@@ -3,8 +3,6 @@
 #
 # An implementation of matrix algebra for 3x1, 1x3, and 3x3 matricies.
 #
-# NOTE: 1X3 matrix is not yet implemented
-#
 # ==============================================================================
 #
 # Copyright 2013 Benjamin Silbaugh (ben.silbaugh@gmail.com)
