@@ -21,5 +21,5 @@ simulations, and perhaps other computational mechanics applications that require
 repeated evaluation of expressions involving "small" matricies.
 
 NOTES: 
-1. This is a developer prevew version.
-2. The 1x3 matrix is not yet supported.
+1. This is a developer prevew version. Breaking changes may occur without
+notice.
